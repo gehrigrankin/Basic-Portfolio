@@ -1,0 +1,91 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://images.pexels.com/photos/218983/pexels-photo-218983.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+header {
+    float: left;
+    padding: 15px;
+    background-color: #334969;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    padding-top: 25px;
+}    
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(69,100,143);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.7);
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px 0px;
+    background-color: rgba(32,46,66,0.85);
+    color: rgba(153,153,153,.7);
+    font-size: 14px;
+    font-family: Georgia;
+    border-top: 6px solid rgba(255,255,255,.25);
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgba(32,46,66,0.85);
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+    padding: 20px;
+    font-style: bold;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    border-bottom: 2px solid rgba(255,255,255,.5);
+}
+.navbar header {
+    position: absolute;
+    left: 100px;
+}
+.navbar a {
+    float: right;
+    border: 1px solid rgba(200, 200, 200, 0.7);
+    padding: 5px;
+    margin: 0px 5px;
+    bottom: 0px;
+    color: rgba(200, 200, 200, 0.7);
+    border-radius: 5px;
+    font-size: 18px;
+}
+.active {
+    color: rgba(255,255,255,0.9) !important;
+    background-color: #6490CF;
+}
+.about-me {
+    position: absolute;
+    top: 25%;
+    left: 300px;
+    right: 300px;
+    padding: 20px;
+    background-color: rgba(255,255,255,.95);
+    border-radius: 10px;
+}
+.about-me img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+}
+.about-me p {
+    position: relative;
+    left: 20px;
+    right: 20px;
+    line-height: 2;
+    margin: 20px;
+    margin-left: 0px;
+}
